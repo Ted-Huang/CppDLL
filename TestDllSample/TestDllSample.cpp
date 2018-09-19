@@ -20,6 +20,11 @@ int _tmain(int argc, _TCHAR* argv[])
 	cout << "start test " << endl;
 	
 	cout << MyClass::MyPlusTen(10) << endl;
+	
+	MyClassToExport* pClassExport = createMyClassToExport();
+
+	cout << pClassExport->GetTen() << endl;
+
 	return 0;
 }
 

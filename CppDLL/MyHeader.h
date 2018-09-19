@@ -4,7 +4,6 @@
 
 #pragma once
 
-
 #ifdef MATHFUNCSDLL_EXPORTS
 #define MATHFUNCSDLL_API  __declspec(dllexport) 
 #else
@@ -17,5 +16,14 @@ class MyClass
 public:
 	MATHFUNCSDLL_API static int MyPlusTen(int nInput);
 };
+
+
+class MATHFUNCSDLL_API MyClassToExport
+{
+public:
+	 int GetTen();
+};
+
+extern "C" MATHFUNCSDLL_API MyClassToExport* createMyClassToExport();
 
 #endif
