@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CppDLL", "CppDLL\CppDLL.vcxproj", "{929CC5F4-254C-49C2-A873-1BBF3F53F184}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestDllSample", "TestDllSample\TestDllSample.vcxproj", "{02EA9E67-6B12-4DDE-B452-6719CAEFC652}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -15,6 +17,10 @@ Global
 		{929CC5F4-254C-49C2-A873-1BBF3F53F184}.Debug|Win32.Build.0 = Debug|Win32
 		{929CC5F4-254C-49C2-A873-1BBF3F53F184}.Release|Win32.ActiveCfg = Release|Win32
 		{929CC5F4-254C-49C2-A873-1BBF3F53F184}.Release|Win32.Build.0 = Release|Win32
+		{02EA9E67-6B12-4DDE-B452-6719CAEFC652}.Debug|Win32.ActiveCfg = Debug|Win32
+		{02EA9E67-6B12-4DDE-B452-6719CAEFC652}.Debug|Win32.Build.0 = Debug|Win32
+		{02EA9E67-6B12-4DDE-B452-6719CAEFC652}.Release|Win32.ActiveCfg = Release|Win32
+		{02EA9E67-6B12-4DDE-B452-6719CAEFC652}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
