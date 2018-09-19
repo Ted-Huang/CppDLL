@@ -1,5 +1,10 @@
 #include "MyHeader.h"
 
+int Test(int i)
+{
+	return i * 100;
+}
+
 /*static */ int MyClass::MyPlusTen(int nInput)
 {
 	return nInput + 10;
