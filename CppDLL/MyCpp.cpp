@@ -5,11 +5,18 @@
 	return nInput + 10;
 }
 
-int MyClassToExport::GetTen()
+class MyClassToExportSon : public MyClassToExport
+{
+public:
+	virtual int GetTen();
+};
+
+
+int MyClassToExportSon::GetTen()
 {
 	return 10;
 }
 
 MyClassToExport* createMyClassToExport() {
-	return new MyClassToExport();
+	return new MyClassToExportSon();
 }

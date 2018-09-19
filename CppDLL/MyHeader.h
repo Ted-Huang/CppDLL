@@ -18,10 +18,10 @@ public:
 };
 
 
-class MATHFUNCSDLL_API MyClassToExport
+class MyClassToExport
 {
 public:
-	 int GetTen();
+	 virtual int GetTen() = 0;
 };
 
 extern "C" MATHFUNCSDLL_API MyClassToExport* createMyClassToExport();
