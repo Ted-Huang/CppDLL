@@ -92,11 +92,6 @@
     </ClCompile>
     <ClCompile Include="TestDllSample.cpp" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\CppDLL\CppDLL.vcxproj">
-      <Project>{929cc5f4-254c-49c2-a873-1bbf3f53f184}</Project>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
